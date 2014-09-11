@@ -1,5 +1,5 @@
-Absolute Me !
-=============
+Absolute Me ! for AngularJS
+===========================
 
 Absolute Me! sizes your target DOM elements with cleverness! Let your favorite layout system like BootStrap, Foundation, etc. do the relative sizing. Get absolute sizes when the page is loaded or when the resizing of the browser is finished. 
 
@@ -11,4 +11,5 @@ Szenarios when Absolute Me! can help:
 Pros:
 -----
 - no scope polution
-- no performance eater (no dom adjustsment during resize event fire)
+- no performance eater (no dom adjustment during resize event fire)
+- no need to width-inherit down to the element
