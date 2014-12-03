@@ -6,7 +6,7 @@
 // <date>2014-09-11</date>
 // <version>0.0.1</version>
 
-(function () {
+(function() {
 
     'use strict';
 
@@ -22,10 +22,10 @@
     // delay:   number = milliseconds after which the absolute sizes are applied
     // initial: false = don't turn sizes into absolute on first load
 
-    angular.module(moduleName).directive('bfAbsoluteMe', ['$window', function ($window) {
+    angular.module(moduleName).directive('bfAbsoluteMe', ['$window', function($window) {
         return {
             restrict: 'A',
-            link: function (scope, element, attrs) {
+            link: function(scope, element, attrs) {
 
                 // timer that is going to be canceled while resizing
                 var timer;
@@ -61,7 +61,7 @@
                 }
 
                 var w = angular.element($window);
-                w.bind('resize', function () {
+                w.bind('resize', function() {
 
                     element[0].style.width = '';
                     element[0].style.height = '';
