@@ -6,7 +6,7 @@
     "Matthias Max <matthias.max@bitflower.net>"
   ],
   "description": "Absolute Me! sizes your target DOM elements with cleverness! Let your favorite layout system like BootStrap, Foundation, etc. do the relative sizing.",
-  "main": "net.bitflower.angular.absoluteMe.min.js",
+  "main": "src/net.bitflower.angular.absoluteMe.min.js",
   "keywords": [
     "size",
     "dom",
